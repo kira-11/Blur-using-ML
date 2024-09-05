@@ -4,7 +4,7 @@ import segmenter_mask
 import blurr
 
 
-IMAGE_FILENAMES = ['G:\\My Drive\\codes on desktop\\VirtualTryOn\\image3.jpg']
+IMAGE_FILENAMES = ['G:\\My Drive\\codes on desktop\\VirtualTryOn\\image3.jpg']#this is a sample, use your own path
 print(type(IMAGE_FILENAMES))
 
 image = cv2.imread(IMAGE_FILENAMES[0])
