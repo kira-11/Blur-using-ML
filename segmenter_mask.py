@@ -11,7 +11,7 @@ MASK_COLOR = (255, 255, 255) # white
 
 
 # Create the options that will be used for ImageSegmenter
-base_options = python.BaseOptions(model_asset_path='G:\\My Drive\\codes on desktop\\VirtualTryOn\\deeplabv3.tflite')
+base_options = python.BaseOptions(model_asset_path='G:\\My Drive\\codes on desktop\\VirtualTryOn\\deeplabv3.tflite')#this is a sample, use your own path
 options = vision.ImageSegmenterOptions(base_options=base_options,
                                        output_category_mask=True)
 
